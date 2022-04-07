@@ -10,10 +10,14 @@ print(f"Вас зовут: {name} , Вам {age} лет, Вы из {country} и 
 time = int(input("Введите время в секундах (введите целое число): "))
 if time <= 59:
     print (f"00:00:{time}")
-if time >= 60:
+elif time >= 60 and time <= 3600:
     print (f"00:{time // 60}:{(time - (time // 60) * 60)}")
-if time >= 3600:
-    print (f"{time // 3600}:{(time - 3600) // 60}:{(time - (time // 60) * 60)}")
-else:
-    print('неверный формат ввода')
+elif time >= 3600:
+    print (f"{time // 3600}:{(time % 3600) // 60}:{(time - (time // 60) * 60)}")
+
+
+# задание 3
+n = int(input('введите целое число n: '))
+
+
 
