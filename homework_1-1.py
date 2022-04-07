@@ -18,6 +18,12 @@ elif time >= 3600:
 
 # задание 3
 n = int(input('введите целое число n: '))
+nn = (f"{n}{n}")
+nnn = (f"{n}{n}{n}")
+print (f"{n} + {nn} + {nnn} = ", int(n) + int(nn) + int(nnn))
+
+
+
 
 
 
