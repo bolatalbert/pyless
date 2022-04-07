@@ -56,15 +56,15 @@
 
 # операторы управления циклом
 
-num = 0
+# num = 0
 
-while True:  # бесконечный цикл
-    num += 1
-    if num >= 10:
-        break
-    if num % 2 == 0:
+#while True:  # бесконечный цикл
+    #num += 1
+  #  if num >= 10:
+   #     break
+ #   if num % 2 == 0:
         continue
-    print(num)
+#  print(num)
 
-f"{100 / 17:.6f}
+# f"{100 / 17:.6f}
 
