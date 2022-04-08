@@ -63,7 +63,7 @@
   #  if num >= 10:
    #     break
  #   if num % 2 == 0:
-        continue
+ #       continue
 #  print(num)
 
 # f"{100 / 17:.6f}

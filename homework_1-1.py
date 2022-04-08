@@ -22,6 +22,22 @@ nn = (f"{n}{n}")
 nnn = (f"{n}{n}{n}")
 print (f"{n} + {nn} + {nnn} = ", int(n) + int(nn) + int(nnn))
 
+# задание 4 -- решил не самостоятельно
+
+number = int(input("введите целое положительное число:"))
+y = number % 10
+while number >= 1:
+    number = number // 10
+    if number % 10 > y:
+        y = number % 10
+    if number > 9:
+        continue
+    else:
+        print(f"наибольшая цифра равна {y}")
+        break
+
+
+
 
 
 
